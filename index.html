@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./style/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="wrapper light-mod">
+            <header>
+                <input id="color-switch" type="checkbox" />
+                <h1 class="title">
+                    Generate a <span class="green-text">random password</span>
+                </h1>
+                <p class="description">Never use insecure password again</p>
+            </header>
+            <main>
+                <button id="generate-btn" class="generate-password-btn">
+                    Generate password
+                </button>
+                <div class="vertical-line"></div>
+                <section class="password-section">
+                    <div class="generated-passwords">
+                        <p id="password-one" class="text"></p>
+                        <div class="copied">copied!</div>
+                    </div>
+                    <div class="generated-passwords">
+                        <p id="password-two" class="text"></p>
+                        <div class="copied">copied!</div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
