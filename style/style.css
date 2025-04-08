@@ -13,9 +13,17 @@ body {
     background-color: #1f2937;
     height: 100vh;
 }
+
 header,
 main {
-    width: 44.6rem;
+    width: 34.6rem;
+}
+
+@media screen and (min-width: 768px) {
+    header,
+    main {
+        width: 44.6rem;
+    }
 }
 
 .wrapper {
@@ -112,12 +120,18 @@ header {
     justify-content: center;
     align-items: center;
     font-size: 1.6rem;
-    width: 22rem;
+    width: 17rem;
     height: 5rem;
     background-color: #273549;
     border-radius: 6px;
     color: #55f991;
     overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .generated-passwords {
+        width: 22rem;
+    }
 }
 
 /* copied pop up */

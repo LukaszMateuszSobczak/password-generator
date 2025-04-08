@@ -133,3 +133,4 @@ passwordTwo.addEventListener('click', function () {
 toggleColorMode.addEventListener('change', function () {
     wrapper.classList.toggle('light-mode');
 });
+
