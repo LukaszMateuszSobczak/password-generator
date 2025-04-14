@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
--   Live Site URL: [live site](https://lukaszmateuszsobczak.github.io/frontEndMentor-Product-preview-card-component/](https://delicate-sorbet-337240.netlify.app/)
+-   Live Site URL: [live site](https://delicate-sorbet-337240.netlify.app/)
 
 ### Built with
 
